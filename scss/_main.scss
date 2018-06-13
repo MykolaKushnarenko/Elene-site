@@ -1,0 +1,388 @@
+.block-1, .block-3, .block-5 {
+  background-color: #eeeeef;
+}
+
+.block-7 {
+  background-color: #50c3af;
+}
+
+/*-------------------*/
+
+
+.block-1__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 62px 0 68px 0;
+}
+.block-1__title{
+  /* Style for "PROFESIONA" */
+
+  color: #40474e;
+  font-family: "PTSans";
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.block-1__text{
+    width: 163px;
+    height: 34px;
+    color: #787b80;
+
+    padding: 0px;
+    margin-top: 9px;
+}
+.block-1__line{
+    border-top: 2px solid #E2E3E4;
+    width: 80%;
+    margin: 10px;
+}
+
+.block-2__item{
+    padding: 65px 0 77px 0;
+}
+
+.block-2__title{
+  /*width: 237px;
+  height: 13px;*/
+  
+  text-transform: uppercase;
+  color: #40474e;
+  padding-top: 20px;
+}
+
+.block-2__item p{
+  width: 240px;
+  height: 37px;
+  color: #787b80;
+ 
+  margin-bottom: 34px
+  
+}
+
+.block-2__line{
+    border-top: 2px solid #E2E3E4;
+    width: 100%;
+    margin: 0px;
+}
+
+.block-2__button{
+  border-radius:30px;
+  background-color: #50c3af;
+  outline: none;
+  border: none;
+  color: #F5F5F5;
+  width: 98px;
+  height: 35px;
+}
+
+.block-3__item{
+      padding-top: 63px;
+      padding-bottom: 64px;
+}
+
+.block-3__title{
+  display: flex;
+}
+
+.block-3__title_text, .block-5__title_text{
+  margin: 0px;
+  padding: 0 0 15px 10px;
+  color: #384048;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.block-3__img{
+  width: 24px;
+  height: 23px;
+}
+
+.block-3__line{
+  border-top: 2px solid #E2E3E4;
+  width: 100%;
+}
+
+.block-3__item p{
+  width: 567px;
+  height: 58px;
+  color: #787b80;
+
+  margin-bottom: 38px;
+}
+
+.block-3__button{
+  border-radius:30px;
+  background-color: #D2D5DA;
+  outline: none;
+  border: none;
+  color: #F5F5F5;
+  width: 98px;
+  height: 35px;
+}
+
+.block-4__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 62px 0 68px 0;
+}
+
+.block-4__line{
+  border-top: 2px solid #E9EAEA;
+  width: 100%;
+}
+
+.block-4__item img{
+
+}
+
+.block-4__title{
+
+
+  /*font-weight: 700;*/
+  text-transform: uppercase;
+  color: #40474e;
+      padding-top: 25px;
+}
+
+.block-4__item p{
+  /* Style for "Lorem ipsu" */
+  width: 168px;
+  height: 37px;
+  color: #787b80;
+ 
+  margin-bottom: 25px;
+}
+
+.block-4__item a{
+  width: 99px;
+  height: 10px;
+  color: #50c3af;
+
+  text-decoration: none;
+}
+
+.block-5__item{
+    display: flex;
+    flex-direction: column;
+    margin: 62px 0 61px 0;
+}
+
+.block-5__title{
+  display: flex;
+}
+
+.block-5__title__image1{
+  width: 24px;
+  height: 19px;
+}
+
+.block-5__title__image2{
+  width: 20px;
+  height: 20px;
+}
+
+.block-5__line{
+  border-top: 2px solid #E9EAEA;
+  width: 100%;
+}
+
+.block-5__item p {
+  /* Style for "Lorem ipsu" */
+  width: 240px;
+  height: 61px;
+  color: #787b80;
+ 
+  padding-bottom: 25px;
+}
+
+.block-5__button{
+  border-radius:30px;
+  background-color: #50c3af;
+  outline: none;
+  border: none;
+  color: #F5F5F5;
+  width: 98px;
+  height: 35px;
+}
+
+.block-6__item{
+    padding: 61px 26px 55px 0;
+}
+
+.block-6__line{
+  border-top: 2px solid #E9EAEA;
+  width: 100%;
+  margin: 10px 0 31px 0;
+  opacity: 0.6;
+}
+
+.block-6__title{
+  /* Style for "JUST FOR Y" */
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "J, UST FOR" */
+  color: #40474e;
+}
+
+.block-6 p{
+  color: #787b80;
+}
+
+.block-6__button{
+  border-radius:30px;
+  background-color: #D2D5DA;
+  outline: none;
+  border: none;
+  color: #F5F5F5;
+  width: 98px;
+  height: 35px;
+}
+
+.block-7__item{
+  display: flex;
+}
+.block-7__title{
+    display: flex;
+    align-items: center;
+    padding-top: 53px;
+    color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.block-7__title img{
+  height: 16px;
+  width: 17px;   
+  margin: 10px; 
+}
+.block-7__line{
+  border-top: 2px solid #60C8B6;
+  width: 55%;
+  margin: 10px 0 31px 0;
+  opacity: 0.6;
+}
+.block-7__group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.block-7__images img{
+      margin: 0 20px 71px 20px;
+}
+footer img{
+  margin: 20px 0px 0px 0px;
+}
+
+footer p{
+  width: 243px;
+  height: 12px;
+  color: #aaacaf;
+  font-size: 13px;
+  /* Text style for "E, lenea ©" */
+  color: #787b80;
+  padding-right: 245px;
+  margin-top: 20px;
+}
+
+.footer__image1{
+  width: 18px;
+  height: 17px;
+}
+.footer__image2{
+  width: 10px;
+  height: 17px;
+}
+.footer__image3{
+  width: 16px;
+  height: 14px;
+}
+
+header {
+    background-image: url(../img/layer-7.png);
+    width: 800px;
+    height: 493px;
+    background-size: 100%;
+}
+
+.header__menu{
+      margin: 47px auto 0;
+      li{
+        display: inline-block;
+        list-style-type:none; 
+      }
+      a{
+          margin-right: 30px;
+        color: #ffffff;
+        font-family: "OpenSansSemiBold";
+        font-size: 13px;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+}
+.header__group1{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 63px;
+}
+.header__group1 img{
+      width: 109px;
+    height: 44px;
+    margin: auto;
+}
+.header__group1 p{
+  color: #ffffff;
+  font-family: "UbuntuBold";
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 60px auto 43px;
+
+}
+.header__group2{
+  display: flex;
+}
+.header__group2 p{
+  width: 216px;
+  heightd: 11px;
+  color: #ffffff;
+  font-family: "PTSans";
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 0px 34px 0px 32px;
+  text-align: center;
+  white-space: nowrap;
+}
+.header__line{
+  border-top: 2px solid #566A72;
+  width: 55%;
+  margin: 10px 0 31px 0;
+  opacity: 0.6;
+}
+.header__button{
+    border-radius:30px;
+  background-color: #50c3af;
+  outline: none;
+  border: none;
+  color: #FFFFFF;
+  height: 48px;
+  width: 235px;
+  color: #f5f5f5;
+  font-family: "PTSans";
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 40px auto;
+}
+
+.block-1__ico{
+	width: 43px;
+    height: 31px;
+    background: url(../img/icon/css_sprites.png) no-repeat;
+    background-position: -9px -77px;
+}
