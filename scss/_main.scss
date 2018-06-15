@@ -7,7 +7,16 @@
 }
 
 /*-------------------*/
+button{
+    border-radius:30px;
+}
+.button_enable{
+  background-color: #50c3af;
+}
 
+.button_disable{
+  background-color: #D2D5DA;
+}
 
 .block-1__item{
   display: flex;
@@ -17,21 +26,39 @@
   margin: 62px 0 68px 0;
 }
 .block-1__title{
-  /* Style for "PROFESIONA" */
 
   color: #40474e;
   font-family: "PTSans";
   font-size: 16px;
   text-transform: uppercase;
 }
-
+.block-1__img1{
+    background-image: url(..//img/icon/css_sprites.png);
+    background-position: -10px -76px;
+    width: 43px;
+    height: 31px;
+    margin: 0 0 32px;
+}
+.block-1__img2{
+    background-image: url(..//img/icon/css_sprites.png);
+    background-position: -136px -10px;
+    width: 39px;
+    height: 35px;
+    margin: 0 0 34px;
+}
+.block-1__img3{
+    background-image: url(..//img/icon/css_sprites.png);
+    background-position: -77px -10px;
+    width: 39px;
+    height: 42px;
+    margin: 0 0 31px;
+}
 .block-1__text{
     width: 163px;
-    height: 34px;
     color: #787b80;
-
     padding: 0px;
     margin-top: 9px;
+    text-align: center;
 }
 .block-1__line{
     border-top: 2px solid #E2E3E4;
@@ -44,9 +71,6 @@
 }
 
 .block-2__title{
-  /*width: 237px;
-  height: 13px;*/
-  
   text-transform: uppercase;
   color: #40474e;
   padding-top: 20px;
@@ -54,7 +78,6 @@
 
 .block-2__item p{
   width: 240px;
-  height: 37px;
   color: #787b80;
  
   margin-bottom: 34px
@@ -64,12 +87,10 @@
 .block-2__line{
     border-top: 2px solid #E2E3E4;
     width: 100%;
-    margin: 0px;
+    margin: 23px 0 31px;
 }
 
-.block-2__button{
-  border-radius:30px;
-  background-color: #50c3af;
+.block-2__button {
   outline: none;
   border: none;
   color: #F5F5F5;
@@ -103,19 +124,22 @@
 .block-3__line{
   border-top: 2px solid #E2E3E4;
   width: 100%;
+  margin: 5px 0 20px;
 }
 
 .block-3__item p{
   width: 567px;
-  height: 58px;
   color: #787b80;
-
   margin-bottom: 38px;
 }
 
+.block-3__img1{
+    background-image: url(..//img/icon/css_sprites.png);
+    background-position: 78px -65px;
+    width: 24px;
+    height: 23px;
+}
 .block-3__button{
-  border-radius:30px;
-  background-color: #D2D5DA;
   outline: none;
   border: none;
   color: #F5F5F5;
@@ -130,9 +154,12 @@
   margin: 62px 0 68px 0;
 }
 
+
+
 .block-4__line{
   border-top: 2px solid #E9EAEA;
   width: 100%;
+  margin: 15px 0 20px;
 }
 
 .block-4__item img{
@@ -140,18 +167,13 @@
 }
 
 .block-4__title{
-
-
-  /*font-weight: 700;*/
   text-transform: uppercase;
   color: #40474e;
-      padding-top: 25px;
+  padding-top: 25px;
 }
 
 .block-4__item p{
-  /* Style for "Lorem ipsu" */
   width: 168px;
-  height: 37px;
   color: #787b80;
  
   margin-bottom: 25px;
@@ -180,6 +202,19 @@
   height: 19px;
 }
 
+.block-5__img1{
+    background-image: url(..//img/icon/css_sprites.png);
+    background-position: 140px -233px;
+    width: 24px;
+    height: 19px;
+}
+
+.block-5__img2{
+    background-image: url(..//img/icon/css_sprites.png);
+    background-position: -10px -127px;
+    width: 20px;
+    height: 20px;
+}
 .block-5__title__image2{
   width: 20px;
   height: 20px;
@@ -188,20 +223,16 @@
 .block-5__line{
   border-top: 2px solid #E9EAEA;
   width: 100%;
+  margin: 10px 0 20px;
 }
 
 .block-5__item p {
-  /* Style for "Lorem ipsu" */
   width: 240px;
-  height: 61px;
   color: #787b80;
- 
   padding-bottom: 25px;
 }
 
 .block-5__button{
-  border-radius:30px;
-  background-color: #50c3af;
   outline: none;
   border: none;
   color: #F5F5F5;
@@ -216,26 +247,23 @@
 .block-6__line{
   border-top: 2px solid #E9EAEA;
   width: 100%;
-  margin: 10px 0 31px 0;
+  margin: 20px 0 25px 0;
   opacity: 0.6;
 }
 
 .block-6__title{
-  /* Style for "JUST FOR Y" */
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  /* Text style for "J, UST FOR" */
   color: #40474e;
 }
 
 .block-6 p{
   color: #787b80;
+  padding: 0 0 20px 0;
 }
 
 .block-6__button{
-  border-radius:30px;
-  background-color: #D2D5DA;
   outline: none;
   border: none;
   color: #F5F5F5;
@@ -245,6 +273,9 @@
 
 .block-7__item{
   display: flex;
+  width:  100%;
+  height:  auto;
+  margin: 20px;
 }
 .block-7__title{
     display: flex;
@@ -276,16 +307,31 @@
 .block-7__images img{
       margin: 0 20px 71px 20px;
 }
+
+.block-7__content{
+   display:  flex;
+    justify-content:  space-around;
+    align-items: center;
+    min-height: 26px;
+    width: 500px;
+    margin-bottom: 20px;
+
+}
+
+.block-7__img1{
+    background-image: url(..//img/icon/css_sprites.png);
+    background-position: 127px -127px;
+    width: 17px;
+    height: 16px;
+    margin: 0 5px;
+}
+
 footer img{
   margin: 20px 0px 0px 0px;
 }
 
 footer p{
-  width: 243px;
-  height: 12px;
-  color: #aaacaf;
   font-size: 13px;
-  /* Text style for "E, lenea ©" */
   color: #787b80;
   padding-right: 245px;
   margin-top: 20px;
@@ -305,7 +351,7 @@ footer p{
 }
 
 header {
-    background-image: url(../img/layer-7.png);
+    background-image: url(../img/2-layers.png);
     width: 800px;
     height: 493px;
     background-size: 100%;
@@ -316,9 +362,9 @@ header {
       li{
         display: inline-block;
         list-style-type:none; 
+        margin: 0 20px;
       }
       a{
-          margin-right: 30px;
         color: #ffffff;
         font-family: "OpenSansSemiBold";
         font-size: 13px;
@@ -340,7 +386,7 @@ header {
 .header__group1 p{
   color: #ffffff;
   font-family: "UbuntuBold";
-  font-size: 36px;
+  font-size: 53px;
   text-transform: uppercase;
   margin: 60px auto 43px;
 
@@ -350,10 +396,9 @@ header {
 }
 .header__group2 p{
   width: 216px;
-  heightd: 11px;
   color: #ffffff;
   font-family: "PTSans";
-  font-size: 15px;
+  font-size: 12px;
   text-transform: uppercase;
   margin: 0px 34px 0px 32px;
   text-align: center;
@@ -366,8 +411,6 @@ header {
   opacity: 0.6;
 }
 .header__button{
-    border-radius:30px;
-  background-color: #50c3af;
   outline: none;
   border: none;
   color: #FFFFFF;
@@ -386,3 +429,76 @@ header {
     background: url(../img/icon/css_sprites.png) no-repeat;
     background-position: -9px -77px;
 }
+
+.logo{
+    width: 109px;
+    height: 44px;
+    margin: auto;
+}
+
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateX(9px);
+    transform: translateX(9px);
+  }
+  30% {
+    -webkit-transform: translateX(-9px);
+    transform: translateX(-9px);
+  }
+  40% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  50% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  65% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+ 
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(9px);
+    transform: translateX(9px);
+  }
+  30% {
+    -webkit-transform: translateX(-9px);
+    transform: translateX(-9px);
+  }
+  40% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  50% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  65% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+img:hover {
+  -webkit-animation: swing 0.6s ease;
+  animation: swing 0.6s ease;
+   -webkit-animation-iteration-count: 1;
+   animation-iteration-count: 1;
+}
+
+
+.hide{
+  visibility: hidden;
+}
+.visib{visibility: visible;}
